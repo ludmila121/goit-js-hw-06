@@ -1,4 +1,4 @@
-const ingredients = [
+const ingredients = document.createElement("li");[
   'Potatoes',
   'Mushrooms',
   'Garlic',

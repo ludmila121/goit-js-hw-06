@@ -21,13 +21,14 @@
 
 const listOfIngredientsEl = document.querySelector(`#ingredients`);
 console.log(listOfIngredientsEl);
-const ingredientsEl = ingredients.reduce((acc, ingredient) => {
-   console.log(ingredientsEl);
-   ingredientsEl.classList.add(`item`);
+const ingredientsEl = ingredients.map((ingredient => ingredientsEl), {
+ ingredientsEl.document.createElement(`li`),
+  ingredientsEl.classList.add('item')
    ingredientsEl.textContent = ingredient;
-    acc.add(ingredientsEl);
   console.log(ingredientsEl);
- }; 
+  ingredientsEl.append();
+}); 
+console.log(ingredientsEl);
 // [
 //   'Potatoes',
 //   'Mushrooms',
